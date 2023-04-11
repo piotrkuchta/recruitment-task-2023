@@ -1,0 +1,37 @@
+body {
+  background-color: #242538;
+  font-family: Helvetica;
+  color: #f0f0f5;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  border: 5px solid #242538;
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.main h1 {
+  background-color: #1b1c2e;
+  display: block;
+  font-size: 2em;
+  padding-block-start: 0.67em;
+  padding-block-end: 0.67em;
+  padding-left: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.content {
+  background-color: #b6b6cc;
+  width: min(90vw, 80vh);
+  height: min(90vw, 80vh);
+}
+
+/* place your styles below */
